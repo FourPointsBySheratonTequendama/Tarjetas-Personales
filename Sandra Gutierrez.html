@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sandra Gutierrez - Four Points Tequendama</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background: #ffffff;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .tarjeta {
+            position: relative;
+            width: 100%;
+            max-width: 1086px;
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* WhatsApp */
+        .whatsapp {
+            position: absolute;
+            left: 3%;
+            top: 82%;
+            width: 13.5%;
+            height: 10.5%;
+            z-index: 10;
+        }
+
+        /* Correo */
+        .correo {
+            position: absolute;
+            left: 15.5%;
+            top: 82%;
+            width: 14%;
+            height: 10.5%;
+            z-index: 10;
+        }
+
+        /* Ubicación */
+        .ubicacion {
+            position: absolute;
+            left: 29.5%;
+            top: 82%;
+            width: 14%;
+            height: 10.5%;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="tarjeta">
+
+        <img
+            src="Sandra%20Gutierrez.png"
+            alt="Tarjeta digital de Sandra Gutierrez"
+        >
+
+        <!-- WhatsApp -->
+        <a
+            class="whatsapp"
+            href="https://wa.me/573175491613"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contactar por WhatsApp"
+        ></a>
+
+        <!-- Correo -->
+        <a
+            class="correo"
+            href="mailto:Sandra.gutierrez@ghlhoteles.com"
+            aria-label="Enviar correo"
+        ></a>
+
+        <!-- Ubicación -->
+        <a
+            class="ubicacion"
+            href="https://www.google.com/maps/search/?api=1&query=Four+Points+by+Sheraton+Tequendama+Bogota"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Ver ubicación"
+        ></a>
+
+    </div>
+
+</body>
+</html>
